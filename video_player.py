@@ -1,7 +1,7 @@
 import pywhatkit
 import tkinter as tk
 
-print("hi put the link of the video you want to play here if you want to stop watching videos just say stop")
+print("hi put the link of the video you want to play here or search a video! If you want to stop watching videos just say stop")
 videolink =  input()
 
 pywhatkit.playonyt(videolink)
